@@ -9,7 +9,7 @@ const HomeScreen = ({ navigation }) => {
   return (
     <View style={styles.container}>
       <Text style={styles.title}>Welcome to the Home Screen</Text>
-      <Text style={styles.subtitle}>Navigate to the Carousel screen to proceed.</Text>
+      <Text style={styles.subtitle}>Navigate to the Carousel screen to proceed the code.</Text>
       <TouchableOpacity style={styles.button} onPress={handlePress}>
         <Text style={styles.buttonText}>View Carousel</Text>
       </TouchableOpacity>
@@ -22,7 +22,8 @@ const styles = StyleSheet.create({
     flex: 1,
     justifyContent: 'center',
     alignItems: 'center',
-    backgroundColor: '#f0f0f0',
+    backgroundColor: 'red',
+
   },
   title: {
     fontSize: 24,
