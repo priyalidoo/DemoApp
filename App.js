@@ -7,6 +7,7 @@ import CarouselRender from './src/screens/auth/CarouselRender';
 const Stack = createStackNavigator();
 
 const App = () => {
+  console.log("Hi App")
   return (
     <NavigationContainer>
       <Stack.Navigator initialRouteName="Home">
